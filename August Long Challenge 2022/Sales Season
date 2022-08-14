@@ -1,0 +1,20 @@
+C++ solution 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int a;
+  cin >> a;
+  while(a--)
+  {
+      int k; cin>>k;
+      if(k<=100) k=k;
+      if(k>100 && k<=1000) k-=25; 
+       if(k>1000 && k<=5000) k-=100;
+        if(k>5000 ) k-=500;
+        cout << k << endl;
+      
+  }
+	return 0;
+}
